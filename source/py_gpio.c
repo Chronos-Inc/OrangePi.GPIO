@@ -29,6 +29,7 @@ SOFTWARE.
 #include "constants.h"
 
 static int gpio_warnings = 1;
+const int (*pin_to_gpio)[41];
 
 struct py_callback
 {
